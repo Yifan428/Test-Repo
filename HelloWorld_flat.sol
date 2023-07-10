@@ -15,7 +15,7 @@ contract HelloWorld {
     }
 
     function test() external {
-        emit Log(msg.sender, "Hello EVM!!!!");
+        emit Log(msg.sender, "Hello EVM!!111!!");
     }
 
     function get() external view returns(string memory greeting){      
