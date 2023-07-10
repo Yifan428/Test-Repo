@@ -6,7 +6,7 @@ contract HelloWorld {
     // Up to 3 parameters can be indexed.
     // Indexed parameters helps you filter the logs by the indexed parameter
     event Log(address indexed sender, string message);
-
+        
     address owner;
     
     constructor() {
